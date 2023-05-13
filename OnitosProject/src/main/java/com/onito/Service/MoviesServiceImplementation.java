@@ -20,5 +20,15 @@ public class MoviesServiceImplementation implements MoviesSerrvice{
 	private MoviesRepository mRepo;
 	
 
+	@Override
+	public List<longestDurationMovieDTO> maxDurationMovies() throws MovieExceptions {
+		// TODO Auto-generated method stub
+		List<longestDurationMovieDTO> movieDTOList = mRepo.getLongestRuntimeMovies();
+		return movieDTOList;
+	}
+
+	
+	
+
 
 }
