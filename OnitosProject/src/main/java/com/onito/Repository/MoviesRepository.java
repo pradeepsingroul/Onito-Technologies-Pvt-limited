@@ -23,16 +23,13 @@ public interface MoviesRepository extends JpaRepository<Movies, String>{
 	 @Query("select new com.onito.Models.longestDurationMovieDTO(m.tconst,m.primaryTitle,m.runtimeMinutes,m.genres) from Movies m order by runtimeMinutes DESC LIMIT 10")
 	 List<longestDurationMovieDTO> getLongestRuntimeMovies();
 	 
-
-	 //sql
-	 //updating the runtime minutes based on the genres
-	 @Modifying
-	 @Transactional
-	 @Query(value="Update Movies set runtime_Minutes = CASE WHEN genres = 'Documentary' THEN runtime_minutes+15 WHEN genres = 'Animation' THEN runtime_minutes+30 ELSE runtime_Minutes+45 END",nativeQuery = true)
-	 void updateRuntimeMinutes();
 	 
-	 @Query("select new com.onito.Models.sumVotesDTO(m.genres,m.primaryTitle,SUM(r.numVotes)) from Movies m INNER JOIN Ratings r ON m.tconst = r.tconst group by m.primaryTitle")
-	 List<sumVotesDTO> findAllvotes();
-
+	//sql
+	//updating the runtime minutes based on the genres
+	@Modifying
+	@Transactional
+	@Query(value="Update Movies set runtime_Minutes = CASE WHEN genres = 'Documentary' THEN runtime_minutes+15 WHEN genres = 'Animation' THEN runtime_minutes+30 ELSE runtime_Minutes+45 END",nativeQuery = true)
+	void updateRuntimeMinutes(); 
+	 
 	
 }
