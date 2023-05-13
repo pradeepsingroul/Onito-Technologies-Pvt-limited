@@ -18,7 +18,7 @@ import com.onito.Models.Movies;
 import com.onito.Models.longestDurationMovieDTO;
 import com.onito.Models.sumVotesDTO;
 import com.onito.Repository.MoviesRepository;
-import com.onito.Service.MoviesSerrvice;
+import com.onito.Service.MoviesService;
 
 
 
@@ -29,7 +29,7 @@ import com.onito.Service.MoviesSerrvice;
 public class MoviesController {
 	
 	@Autowired
-	private MoviesSerrvice mServices;
+	private MoviesService mServices;
 	
 	@Autowired
 	private MoviesRepository mrepo;
