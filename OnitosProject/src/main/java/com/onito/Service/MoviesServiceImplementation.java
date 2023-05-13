@@ -42,7 +42,11 @@ public class MoviesServiceImplementation implements MoviesSerrvice{
 
 	}
 
-	
+	@Override
+	public List<sumVotesDTO> calculateVotes() throws MovieExceptions, RatingExceptions {
+		List<sumVotesDTO> votes = mRepo.findAllvotes();
+		return votes;
+	}
 	
 
 
