@@ -14,7 +14,7 @@ import com.onito.Models.sumVotesDTO;
 import com.onito.Repository.MoviesRepository;
 
 @Service
-public class MoviesServiceImplementation implements MoviesSerrvice{
+public class MoviesServiceImplementation implements MoviesService{
 	
 	@Autowired
 	private MoviesRepository mRepo;
