@@ -36,6 +36,12 @@ public class MoviesServiceImplementation implements MoviesSerrvice{
 		
 	}
 
+	@Override
+	public void getUpdatedRuntimeMovies() throws MovieExceptions, RatingExceptions {
+		mRepo.updateRuntimeMinutes();
+
+	}
+
 	
 	
 
