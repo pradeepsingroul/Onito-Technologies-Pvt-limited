@@ -37,7 +37,7 @@ public class MoviesController {
 	
 	
 	//create movies
-	@PostMapping("/create-movie")
+	@PostMapping("/new-movie")
 	public ResponseEntity<String> registerMovieHandler(@RequestBody Movies mv){
 		Movies movie = mServices.createMovies(mv); // getting register movies data
 		String str = movie+" : movie successfuly register "; //cancatination with succesfull message
@@ -53,7 +53,7 @@ public class MoviesController {
 	
 	
 	//ipdating the runtime minutes
-	@GetMapping("/update-runtimeMinutes")
+	@GetMapping("/update-runtime-minutes")
 	public ResponseEntity<List<Movies>> updateRuntimeHandler(){
 		mServices.getUpdatedRuntimeMovies(); //updating
 		List<Movies> mvList = mrepo.findAll(); //getting the updated data

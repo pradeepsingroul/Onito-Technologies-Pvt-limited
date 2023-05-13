@@ -9,7 +9,7 @@ import lombok.Setter;
 @Data
 @Setter
 @Getter
-
+@AllArgsConstructor
 @NoArgsConstructor
 public class sumVotesDTO {
 	
@@ -19,12 +19,7 @@ public class sumVotesDTO {
 
 	private Integer numVotes;
 
-	public sumVotesDTO(String genre, String primaryTitle, Integer numVotes) {
-		super();
-		Genre = genre;
-		this.primaryTitle = primaryTitle;
-		this.numVotes = numVotes;
-	}
+	
 
 	
 	
