@@ -1,6 +1,4 @@
 # Onito-Technologies-Pvt-limited
-
-# Rock-Scissor-And-Paper
 This is the game of Rock , Scissor and paper where two player exist one is computer and second is user user can pass the Rock/scissor/paper and computer automatically generate your value and then project compares both values and return the winner result based on the game rules.
 
 
@@ -8,10 +6,7 @@ This is the game of Rock , Scissor and paper where two player exist one is compu
 ## ER Diagram
 ![ER diagram - Page 3](https://github.com/pradeepsingroul/Onito-Technologies-Pvt-limited/assets/104360276/c091c1a1-5a0c-4a5e-be9d-ee16b0ae7efb)
 
-## Features
- - User can register your self and login and then he/she can play the game
- 
- ## Rest Api
+## Features && ## Rest Api
  
  ```new movies 
 PostMethod-
