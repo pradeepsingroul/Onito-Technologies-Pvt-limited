@@ -1,5 +1,5 @@
 # Onito-Technologies-Pvt-limited
-This is the game of Rock , Scissor and paper where two player exist one is computer and second is user user can pass the Rock/scissor/paper and computer automatically generate your value and then project compares both values and return the winner result based on the game rules.
+This is the basic project based on the CRUD operation in database in this project we can get thetoprated movies , we can update the runtime, we can get the longest runtime movies, we can get the number of votes, we can get the rating based movies as well.
 
 
 
