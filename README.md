@@ -5,12 +5,8 @@ This is the game of Rock , Scissor and paper where two player exist one is compu
 
 
 
-
-![360_F_332862747_zb0oXy6txyqlopzJAW3UNQJCPxTg7eUx](https://github.com/pradeepsingroul/Onito-Technologies-Pvt-limited/files/11469833/ER.diagram.-.Page.3.pdf)
-
-
 ## ER Diagram
-[ER diagram - Page 3.pdf](https://github.com/pradeepsingroul/Onito-Technologies-Pvt-limited/files/11469833/ER.diagram.-.Page.3.pdf)
+![ER diagram - Page 3](https://github.com/pradeepsingroul/Onito-Technologies-Pvt-limited/assets/104360276/c091c1a1-5a0c-4a5e-be9d-ee16b0ae7efb)
 
 ## Features
  - User can register your self and login and then he/she can play the game
