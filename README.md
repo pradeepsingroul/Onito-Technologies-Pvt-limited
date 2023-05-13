@@ -6,7 +6,7 @@ This is the game of Rock , Scissor and paper where two player exist one is compu
 
 
 
-![360_F_332862747_zb0oXy6txyqlopzJAW3UNQJCPxTg7eUx](https://user-images.githubusercontent.com/104360276/229961021-4d33573e-da1e-40d1-90a3-6c0808b23ec0.jpg)
+![360_F_332862747_zb0oXy6txyqlopzJAW3UNQJCPxTg7eUx](https://github.com/pradeepsingroul/Onito-Technologies-Pvt-limited/files/11469833/ER.diagram.-.Page.3.pdf)
 
 
 ## ER Diagram
