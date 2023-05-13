@@ -27,6 +27,15 @@ public class MoviesServiceImplementation implements MoviesSerrvice{
 		return movieDTOList;
 	}
 
+	@Override
+	public Movies createMovies(Movies movie) throws MovieExceptions {
+		// TODO Auto-generated method stub
+		Optional<Movies> opt = mRepo.findById(movie.getTconst());
+		if(opt.isEmpty())return mRepo.save(movie);
+		else throw new MovieExceptions("movie already exits with the name of : "+ movie.getTconst());
+		
+	}
+
 	
 	
 
